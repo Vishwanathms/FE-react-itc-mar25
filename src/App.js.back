@@ -1,0 +1,21 @@
+// import React, { useEffect, useState } from 'react';
+
+// function App() {
+//   const [message, setMessage] = useState('');
+
+//   useEffect(() => {
+//     fetch('https://y6od30h9b3.execute-api.us-east-1.amazonaws.com/uat/hello')
+//       .then(res => res.text())
+//       .then(data => setMessage(data))
+//       .catch(err => console.error('Error fetching message:', err));
+//   }, []);
+
+//   return (
+//     <div style={{ padding: '2rem', fontFamily: 'Arial' }}>
+//       <h1>Spring Boot + React Demo</h1>
+//       <p>Message from backend: <strong>{message}</strong></p>
+//     </div>
+//   );
+// }
+
+// export default App;
