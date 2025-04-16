@@ -1,0 +1,5 @@
+apiVersion: v2
+name: c-app
+description: A Helm chart for React + Spring Boot App
+version: 0.1.0
+appVersion: "1.0"

@@ -1,0 +1,13 @@
+namespace: 29-vishwa
+
+backend:
+  image: vishwacloudlab/c-app-backend:latest
+  replicas: 1
+  port: 8080
+  serviceType: LoadBalancer
+
+frontend:
+  image: vishwacloudlab/c-app-frontend:latest
+  replicas: 1
+  port: 80
+  serviceType: LoadBalancer
